@@ -1,68 +1,66 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Book Search Engine
+ &nbsp;&nbsp;&nbsp;&nbsp;![Repo size badge](https://img.shields.io/github/repo-size/Karina5151/Book-Search-Engine?color=success) &nbsp;&nbsp;&nbsp;&nbsp;![Language % badge](https://img.shields.io/github/languages/top/Karina5151/Book-Search-Engine) &nbsp;&nbsp;&nbsp;&nbsp;
 
-## Available Scripts
 
-In the project directory, you can run:
+## :memo: Description
+Google Books API search engine built with GraphQL API and Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. Users can save books to thier profile.
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :trophy: Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+  
+  
+## Installation
+To run locally:
+* Fork the https://github.com/Karina5151/Book-Search-Engine repo.
+* Clone your forked repo to VS Code on your computer.
+* Open entire parent folder of the project in your terminal.
+* Install the node dependencies by entering in the terminal:
+```
+npm i
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* Then enter `npm run develop` to see in the browser. The application will then be listening on port 3000. Open your browser and put `localhost:3000` in the address bar of the browser page to see the application on your local device.
 
-### `yarn test`
+  
+## Usage
+Users can search for books through the Google Books API and save books to their profile. 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launch Heroku deployed web application [here](https://secure-springs-23383.herokuapp.com/)
 
-### `yarn build`
+![Web App Image](../client/public/assets/bookScreenshot.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  
+## Contributing
+This application was developed by Karina Clausen.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+The technologies that made this possible are:
+* HTML
+* CSS
+* <a href="https://www.javascript.com/" target="_blank">JavaScript</a>
+* <a href="https://nodejs.org/api/fs.html" target="_blank">Node.js</a>
+* <a href="https://expressjs.com/" target="_blank">Express.js</a>
+* <a href="https://www.json.org/json-en.html" target="_blank">JSON</a>
+* <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+* <a href="https://reactjs.org/" target="_blank">React</a>
+* <a href="https://www.apollographql.com/" target="_blank">Apollo</a>
+* <a href="https://graphql.org/" target="_blank">GraphQL</a>
+* <a href="https://www.mongodb.com/" target="_blank">MongoDB</a>
+* <a href="https://www.w3schools.com/whatis/whatis_fullstack_js.asp" target="_blank">MERN Stack</a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+  
+  
+  
+  
+ ---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :question: Questions
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For any questions, please contact me using the information below:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+:octocat: GitHub: [@Karina5151](https://github.com/Karina5151)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+:envelope: Email: karina.clausen.11@gmail.com
